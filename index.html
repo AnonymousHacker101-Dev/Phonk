@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phonk Player | Salar King</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Background Effects -->
+  <div class="bg-blur blur-one"></div>
+  <div class="bg-blur blur-two"></div>
+  <div class="noise-overlay"></div>
+
+  <!-- Welcome Popup -->
+  <div class="popup-overlay active" id="welcomePopup">
+    <div class="popup-box">
+      <h1>Welcome to the Phonk Zone</h1>
+      <p>
+        Enter the premium phonk experience made with style, glow, and dark energy.
+      </p>
+      <button id="continueBtn">Continue</button>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="main-site hidden" id="mainSite">
+    <header class="hero">
+      <h1>PHONK PLAYER</h1>
+      <p>Dark vibes. Blurry red glow. Premium energy.</p>
+    </header>
+
+    <section class="music-section">
+      <div class="section-header">
+        <h2>Salar 👑</h2>
+      </div>
+
+      <div class="song-grid">
+        <div class="song-card">
+          <div class="song-image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=900&q=80"
+              alt="NO BATIDÃO (Super Slowed)"
+            />
+          </div>
+
+          <div class="song-content">
+            <h3>NO BATIDÃO (Super Slowed)</h3>
+
+            <audio controls preload="none">
+              <source src="songs/no-batidao-super-slowed.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+
+            <button class="like-btn" type="button">💙 Like</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="music-section">
+      <div class="section-header">
+        <h2>Muqeet 🪽</h2>
+      </div>
+
+      <div class="empty-box">
+        <p>No songs added yet.</p>
+      </div>
+    </section>
+
+    <section class="music-section">
+      <div class="section-header">
+        <h2>Mujtaba 💪🏼</h2>
+      </div>
+
+      <div class="empty-box">
+        <p>No songs added yet.</p>
+      </div>
+    </section>
+
+    <section class="music-section">
+      <div class="section-header">
+        <h2>Ali BBY ❤️</h2>
+      </div>
+
+      <div class="empty-box">
+        <p>No songs added yet.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>Powered By Salar King 👑</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
